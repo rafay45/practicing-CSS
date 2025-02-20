@@ -5,11 +5,15 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body{
+    
+    background-color: rgb(255, 240, 243);
+}
 nav {
     display: flex;
     justify-content: center;
     max-width: 100%;
-    background-color: rgb(248, 128, 148);
+    background-color: rgb(255, 0, 157);
     height: 12vh;
     align-items: center;
     overflow: hidden;
@@ -54,11 +58,24 @@ ul>li>a:hover::before {
 
 header {
     overflow: hidden;
-    background-color: pink;
     position: relative;
     height: 90vh;
     max-width: 100%;
     text-align: center;
+}
+.love{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+span{
+    font-size: 50px;
+    position: absolute;
+    left: 23%;
+    top: 20%;
 }
 
 .left {
@@ -197,14 +214,6 @@ header {
     left: 91%;
 }
 
-.years {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: 35%;
-    left: 14%;
-    transition-delay: 0.4s;
-}
 
 .side-one {
     position: absolute;
@@ -241,6 +250,27 @@ header {
     bottom: 15%;
     transition-delay: 0.4s;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+    height: 80vh;
+}
+.container > p{
+    width: 50%;
+    color: rgb(255, 0, 157);
+    font-weight: 600;
+    font-size: 1.8rem;
+    transition-delay: 0.4s;
+}
+.years {
+    width: 50vw;
+    height: 80vh;
+    transition-delay: 0.4s;
+}
 
 @media (min-width: 344px) and (max-width: 359px) {}
 
@@ -266,13 +296,12 @@ header {
         display: flex;
         justify-content: center;
         max-width: 100%;
-        background-color: rgb(248, 128, 148);
+        background-color: rgb(255, 0, 157);
         height: 70px;
         align-items: center;
     }
 
     header {
-        background-color: pink;
         position: relative;
         height: 90vh;
         max-width: 100%;
@@ -427,14 +456,20 @@ header {
         transition-delay: 0.4s;
     }
 
-    .years {
+    .love {
         width: 100px;
         height: 100px;
         position: absolute;
         z-index: 1;
-        top: 460px;
+        top: 480px;
         left: 110px;
         transition-delay: 0.4s;
+    }
+    span{
+        font-size: 20px;
+        position: absolute;
+        top: 490px;
+        left: 200px;
     }
 
     .side-five {
@@ -449,9 +484,31 @@ header {
     .side-four {
         position: absolute;
         width: 100px;
-        height: 100px;
+        height: 120px;
         right: 40px;
         top: 30px;
+        transition-delay: 0.4s;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px;
+        align-items: center;
+        max-width: 100%;
+        overflow: hidden;
+        height: 100vh;
+    }
+    .container > p{
+        width: 100%;
+        color: rgb(255, 0, 157);
+        font-weight: 600;
+        font-size: 1rem;
+        transition-delay: 0.4s;
+    }
+    .years {
+        width: 100vw;
+        height: 800px;
         transition-delay: 0.4s;
     }
 }
@@ -478,13 +535,12 @@ header {
         display: flex;
         justify-content: center;
         max-width: 100%;
-        background-color: rgb(248, 128, 148);
+        background-color: rgb(255, 0, 157);
         height: 70px;
         align-items: center;
     }
 
     header {
-        background-color: pink;
         position: relative;
         height: 90vh;
         max-width: 100%;
@@ -639,7 +695,7 @@ header {
         transition-delay: 0.4s;
     }
 
-    .years {
+    .love{
         width: 100px;
         height: 100px;
         position: absolute;
@@ -647,6 +703,14 @@ header {
         top: 450px;
         left: 120px;
         transition-delay: 0.4s;
+    }
+    span{
+        z-index: 1;
+        font-size: 20px;
+        position: absolute;
+        top: 460px;
+        left: 210px;
+        transition-delay: 0.1s;
     }
 
     .side-five {
