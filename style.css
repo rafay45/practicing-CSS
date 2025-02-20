@@ -1,0 +1,366 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(248, 128, 148);
+    height: 12vh;
+    align-items: center;
+}
+
+ul {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+ul>li {
+    position: relative;
+}
+
+ul>li>a {
+    padding: 10px 0px 10px 0px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+ul>li>a::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+
+ul>li>a:hover::before {
+    width: 100%;
+}
+
+header {
+    background-color: pink;
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+}
+
+.left {
+    position: absolute;
+    width: 25%;
+    height: 90%;
+    left: 0;
+    bottom: 0;
+    transition-delay: 0.4s;
+}
+
+.center {
+    width: 50%;
+    height: 100%;
+    transition-delay: 0.4s;
+}
+.right{
+    position: absolute;
+    width: 25%;
+    height: 70%;
+    right: 0;
+    bottom: 0;
+    transition-delay: 0.4s;
+}
+.label-one{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+.label-two{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 7%;
+}
+.label-three{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 14%;
+}
+.label-four{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 21%;
+}
+.label-five{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 28%;
+}
+.label-six{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 35%;
+}
+.label-seven{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 42%;
+}
+.label-eight{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 49%;
+}
+.label-nine{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 56%;
+}
+.label-ten{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 63%;
+}
+.label-eleven{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 70%;
+}
+.label-twelve{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 77%;
+}
+.label-thirteen{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 84%;
+}
+.label-fourteen{
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    top: 0;
+    left: 91%;
+}
+.year{
+    color: rgb(248, 39, 74);
+    text-shadow: 0 10px 10px rgb(241, 88, 113);
+    font-weight: 800;
+    font-size: 50px;
+    position: absolute;
+    top: 35%;
+    left: 14%;
+    transition-delay: 0.4s;
+}
+.side-one{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 0;
+    top: 15%;
+    transition-delay: 0.4s;
+}
+.side-two{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    right: 8%;
+    top: 20%;
+    transition-delay: 0.4s;
+}
+.side-five{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 15%;
+   bottom: 10%;
+   transition-delay: 0.4s;
+}
+.side-four{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 10%;
+   bottom: 15%;
+   transition-delay: 0.4s;
+}
+@media (min-width: 344px) and (max-width: 359px) {
+
+}
+@media (min-width: 360px) and (max-width: 374px) {
+
+}
+@media (min-width: 375px)  and (max-width: 389px)  {
+    ul {
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+    ul>li>a {
+        padding: 10px 0px 10px 0px;
+        text-decoration: none;
+        cursor: pointer;
+        font-weight: bold;
+        color: white;
+        font-size: 14px;
+        position: relative;
+    }
+    header {
+        background-color: pink;
+        position: relative;
+        height: 90vh;
+        width: 100%;
+        text-align: center;
+    }
+    .label-one{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+}
+.label-two{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 7%;
+}
+.label-three{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 14%;
+}
+.label-four{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 21%;
+}
+.label-five{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 28%;
+}
+.label-six{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 35%;
+}
+.label-seven{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 42%;
+}
+.label-eight{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 49%;
+}
+.label-nine{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 56%;
+}
+.label-ten{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 63%;
+}
+.label-eleven{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 70%;
+}
+.label-twelve{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 77%;
+}
+.label-thirteen{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 84%;
+}
+.label-fourteen{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 91%;
+}
+}
+@media (min-width: 390px) and (max-width: 429px) {
+
+}
+@media (min-width: 430px) and (max-width: 539px)  {
+
+}
+@media (min-width: 540px) and (max-width: 767px)  {
+
+}
+@media (min-width: 768px) and (max-width: 819px) {
+
+}
+@media (min-width: 820px) and (max-width: 1023px){
+
+}
