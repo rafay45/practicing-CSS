@@ -432,7 +432,7 @@ header {
         height: 100px;
         position: absolute;
         z-index: 1;
-        top: 480px;
+        top: 460px;
         left: 110px;
         transition-delay: 0.4s;
     }
