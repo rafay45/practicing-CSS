@@ -1,17 +1,18 @@
-* {
+*{
     padding: 0;
     margin: 0;
+    max-width: 100%;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
 nav {
     display: flex;
     justify-content: center;
-    width: 100%;
+    max-width: 100%;
     background-color: rgb(248, 128, 148);
     height: 12vh;
     align-items: center;
+    overflow: hidden;
 }
 
 ul {
@@ -52,10 +53,11 @@ ul>li>a:hover::before {
 }
 
 header {
+    overflow: hidden;
     background-color: pink;
     position: relative;
     height: 90vh;
-    width: 100%;
+    max-width: 100%;
     text-align: center;
 }
 
@@ -195,11 +197,9 @@ header {
     left: 91%;
 }
 
-.year {
-    color: rgb(248, 39, 74);
-    text-shadow: 0 10px 10px rgb(241, 88, 113);
-    font-weight: 800;
-    font-size: 50px;
+.years {
+    width: 150px;
+    height: 150px;
     position: absolute;
     top: 35%;
     left: 14%;
@@ -396,7 +396,7 @@ header {
         width: 250px;
         height: 800px;
         left: 0;
-        bottom: 0;
+        bottom: 10px;
         transition-delay: 0.4s;
     }
 
@@ -414,7 +414,7 @@ header {
         width: 280px;
         height: 500px;
         right: 0;
-        bottom: 0;
+        bottom: 10px;
         transition-delay: 0.4s;
     }
 
@@ -427,23 +427,22 @@ header {
         transition-delay: 0.4s;
     }
 
-    .year {
-        color: rgb(248, 39, 74);
-        text-shadow: 0 10px 10px rgb(241, 88, 113);
-        font-weight: 800;
-        font-size: 30px;
+    .years {
+        width: 100px;
+        height: 100px;
         position: absolute;
-        top: 20px;
-        left: 100px;
+        z-index: 1;
+        top: 480px;
+        left: 110px;
         transition-delay: 0.4s;
     }
 
     .side-five {
         position: absolute;
-        width: 100px;
-        height: 100px;
-        left: 120px;
-        bottom: 70px;
+        width: 80px;
+        height: 80px;
+        top: 25px;
+        left: 100px;
         transition-delay: 0.4s;
     }
 
@@ -488,7 +487,7 @@ header {
         background-color: pink;
         position: relative;
         height: 90vh;
-       max-width: 100%;
+        max-width: 100%;
         text-align: center;
     }
 
@@ -640,26 +639,24 @@ header {
         transition-delay: 0.4s;
     }
 
-    .year {
-        color: rgb(248, 39, 74);
-        text-shadow: 0 10px 10px rgb(241, 88, 113);
-        font-weight: 800;
-        font-size: 30px;
+    .years {
+        width: 100px;
+        height: 100px;
         position: absolute;
-        top: 20px;
-        left: 100px;
+        z-index: 1;
+        top: 450px;
+        left: 120px;
         transition-delay: 0.4s;
     }
 
     .side-five {
         position: absolute;
-        width: 100px;
-        height: 100px;
-        left: 120px;
-        bottom: 15px;
+        width: 80px;
+        height: 80px;
+        top: 25px;
+        left: 100px;
         transition-delay: 0.4s;
     }
-
     .side-four {
         position: absolute;
         width: 100px;
