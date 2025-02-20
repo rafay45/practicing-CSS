@@ -501,9 +501,9 @@ span{
     }
     .container > p{
         width: 100%;
-        color: rgb(255, 0, 157);
+        font-size: 1.2rem;
+        margin-top: 25px;
         font-weight: 600;
-        font-size: 1rem;
         transition-delay: 0.4s;
     }
     .years {
@@ -727,6 +727,29 @@ span{
         height: 100px;
         right: 40px;
         top: 25px;
+        transition-delay: 0.4s;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px;
+        align-items: center;
+        max-width: 100%;
+        overflow: hidden;
+        height: 100vh;
+    }
+    .container > p{
+        width: 100%;
+        color: rgb(255, 0, 157);
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-top: 25px;
+        transition-delay: 0.4s;
+    }
+    .years {
+        width: 100vw;
+        height: 800px;
         transition-delay: 0.4s;
     }
 }
