@@ -73,7 +73,8 @@ header {
     height: 100%;
     transition-delay: 0.4s;
 }
-.right{
+
+.right {
     position: absolute;
     width: 25%;
     height: 70%;
@@ -81,105 +82,120 @@ header {
     bottom: 0;
     transition-delay: 0.4s;
 }
-.label-one{
+
+.label-one {
     position: absolute;
     width: 100px;
     height: 100px;
     top: 0;
     left: 0;
 }
-.label-two{
+
+.label-two {
     position: absolute;
     width: 100px;
     height: 100px;
     top: 0;
     left: 7%;
 }
-.label-three{
+
+.label-three {
     position: absolute;
     width: 100px;
     height: 100px;
     top: 0;
     left: 14%;
 }
-.label-four{
+
+.label-four {
     position: absolute;
     width: 100px;
     height: 100px;
     top: 0;
     left: 21%;
 }
-.label-five{
+
+.label-five {
     position: absolute;
     width: 100px;
     height: 100px;
     top: 0;
     left: 28%;
 }
-.label-six{
+
+.label-six {
     position: absolute;
     width: 100px;
     height: 100px;
     top: 0;
     left: 35%;
 }
-.label-seven{
+
+.label-seven {
     position: absolute;
     width: 100px;
     height: 100px;
     top: 0;
     left: 42%;
 }
-.label-eight{
+
+.label-eight {
     position: absolute;
     width: 100px;
     height: 100px;
     top: 0;
     left: 49%;
 }
-.label-nine{
+
+.label-nine {
     position: absolute;
     width: 100px;
     height: 100px;
     top: 0;
     left: 56%;
 }
-.label-ten{
+
+.label-ten {
     position: absolute;
     width: 100px;
     height: 100px;
     top: 0;
     left: 63%;
 }
-.label-eleven{
+
+.label-eleven {
     position: absolute;
     width: 100px;
     height: 100px;
     top: 0;
     left: 70%;
 }
-.label-twelve{
+
+.label-twelve {
     position: absolute;
     width: 100px;
     height: 100px;
     top: 0;
     left: 77%;
 }
-.label-thirteen{
+
+.label-thirteen {
     position: absolute;
     width: 100px;
     height: 100px;
     top: 0;
     left: 84%;
 }
-.label-fourteen{
+
+.label-fourteen {
     position: absolute;
     width: 120px;
     height: 100px;
     top: 0;
     left: 91%;
 }
-.year{
+
+.year {
     color: rgb(248, 39, 74);
     text-shadow: 0 10px 10px rgb(241, 88, 113);
     font-weight: 800;
@@ -189,7 +205,8 @@ header {
     left: 14%;
     transition-delay: 0.4s;
 }
-.side-one{
+
+.side-one {
     position: absolute;
     width: 200px;
     height: 200px;
@@ -197,7 +214,8 @@ header {
     top: 15%;
     transition-delay: 0.4s;
 }
-.side-two{
+
+.side-two {
     position: absolute;
     width: 300px;
     height: 350px;
@@ -205,35 +223,246 @@ header {
     top: 20%;
     transition-delay: 0.4s;
 }
-.side-five{
+
+.side-five {
     position: absolute;
     width: 100px;
     height: 100px;
     left: 15%;
-   bottom: 10%;
-   transition-delay: 0.4s;
+    bottom: 10%;
+    transition-delay: 0.4s;
 }
-.side-four{
+
+.side-four {
     position: absolute;
     width: 100px;
     height: 100px;
     right: 10%;
-   bottom: 15%;
-   transition-delay: 0.4s;
+    bottom: 15%;
+    transition-delay: 0.4s;
 }
-@media (min-width: 344px) and (max-width: 359px) {
 
-}
+@media (min-width: 344px) and (max-width: 359px) {}
+
 @media (min-width: 360px) and (max-width: 374px) {
-
-}
-@media (min-width: 375px)  and (max-width: 389px)  {
     ul {
         width: 80%;
         display: flex;
         justify-content: space-evenly;
         list-style-type: none;
     }
+
+    ul>li>a {
+        padding: 10px 0px 10px 0px;
+        text-decoration: none;
+        cursor: pointer;
+        font-weight: bold;
+        color: white;
+        font-size: 15px;
+        position: relative;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: rgb(248, 128, 148);
+        height: 12vh;
+        align-items: center;
+    }
+
+    header {
+        background-color: pink;
+        position: relative;
+        height: 90vh;
+        width: 100%;
+        text-align: center;
+    }
+
+    .label-one {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 0;
+    }
+
+    .label-two {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 7%;
+    }
+
+    .label-three {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 14%;
+    }
+
+    .label-four {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 21%;
+    }
+
+    .label-five {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 28%;
+    }
+
+    .label-six {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 35%;
+    }
+
+    .label-seven {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 42%;
+    }
+
+    .label-eight {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 49%;
+    }
+
+    .label-nine {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 56%;
+    }
+
+    .label-ten {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 63%;
+    }
+
+    .label-eleven {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 70%;
+    }
+
+    .label-twelve {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 77%;
+    }
+
+    .label-thirteen {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 84%;
+    }
+
+    .label-fourteen {
+        position: absolute;
+        width: 32px;
+        height: 30px;
+        top: 0;
+        left: 91%;
+    }
+
+    .left {
+        position: absolute;
+        width: 250px;
+        height: 800px;
+        left: 0;
+        bottom: 0;
+        transition-delay: 0.4s;
+    }
+
+    .center {
+        position: absolute;
+        margin-top: 70px;
+        left: 30px;
+        width: 280px;
+        height: 420px;
+        transition-delay: 0.4s;
+    }
+
+    .right {
+        position: absolute;
+        width: 280px;
+        height: 500px;
+        right: 0;
+        bottom: 0;
+        transition-delay: 0.4s;
+    }
+
+    .side-one {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 0;
+        top: 25px;
+        transition-delay: 0.4s;
+    }
+
+    .year {
+        color: rgb(248, 39, 74);
+        text-shadow: 0 10px 10px rgb(241, 88, 113);
+        font-weight: 800;
+        font-size: 30px;
+        position: absolute;
+        top: 20px;
+        left: 100px;
+        transition-delay: 0.4s;
+    }
+    .side-five {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 120px;
+        bottom: 70px;
+        transition-delay: 0.4s;
+    }
+    .side-four {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        right: 40px;
+        top: 30px;
+        transition-delay: 0.4s;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 389px) {
+    ul {
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+
     ul>li>a {
         padding: 10px 0px 10px 0px;
         text-decoration: none;
@@ -243,6 +472,16 @@ header {
         font-size: 14px;
         position: relative;
     }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: rgb(248, 128, 148);
+        height: 12vh;
+        align-items: center;
+    }
+
     header {
         background-color: pink;
         position: relative;
@@ -250,117 +489,189 @@ header {
         width: 100%;
         text-align: center;
     }
-    .label-one{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 0;
-    left: 0;
-}
-.label-two{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 0;
-    left: 7%;
-}
-.label-three{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 0;
-    left: 14%;
-}
-.label-four{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 0;
-    left: 21%;
-}
-.label-five{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 0;
-    left: 28%;
-}
-.label-six{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 0;
-    left: 35%;
-}
-.label-seven{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 0;
-    left: 42%;
-}
-.label-eight{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 0;
-    left: 49%;
-}
-.label-nine{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 0;
-    left: 56%;
-}
-.label-ten{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 0;
-    left: 63%;
-}
-.label-eleven{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 0;
-    left: 70%;
-}
-.label-twelve{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 0;
-    left: 77%;
-}
-.label-thirteen{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 0;
-    left: 84%;
-}
-.label-fourteen{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 0;
-    left: 91%;
-}
-}
-@media (min-width: 390px) and (max-width: 429px) {
 
-}
-@media (min-width: 430px) and (max-width: 539px)  {
+    .label-one {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 0;
+    }
 
-}
-@media (min-width: 540px) and (max-width: 767px)  {
+    .label-two {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 7%;
+    }
 
-}
-@media (min-width: 768px) and (max-width: 819px) {
+    .label-three {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 14%;
+    }
 
-}
-@media (min-width: 820px) and (max-width: 1023px){
+    .label-four {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 21%;
+    }
 
+    .label-five {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 28%;
+    }
+
+    .label-six {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 35%;
+    }
+
+    .label-seven {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 42%;
+    }
+
+    .label-eight {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 49%;
+    }
+
+    .label-nine {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 56%;
+    }
+
+    .label-ten {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 63%;
+    }
+
+    .label-eleven {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 70%;
+    }
+
+    .label-twelve {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 77%;
+    }
+
+    .label-thirteen {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 84%;
+    }
+
+    .label-fourteen {
+        position: absolute;
+        width: 32px;
+        height: 30px;
+        top: 0;
+        left: 91%;
+    }
+
+    .left {
+        position: absolute;
+        width: 250px;
+        height: 800px;
+        left: 0;
+        bottom: 0;
+        transition-delay: 0.4s;
+    }
+
+    .center {
+        position: absolute;
+        margin-top: 70px;
+        left: 30px;
+        width: 300px;
+        height: 400px;
+        transition-delay: 0.4s;
+    }
+
+    .right {
+        position: absolute;
+        width: 280px;
+        height: 500px;
+        right: 0;
+        bottom: 0;
+        transition-delay: 0.4s;
+    }
+
+    .side-one {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 0;
+        top: 25px;
+        transition-delay: 0.4s;
+    }
+
+    .year {
+        color: rgb(248, 39, 74);
+        text-shadow: 0 10px 10px rgb(241, 88, 113);
+        font-weight: 800;
+        font-size: 30px;
+        position: absolute;
+        top: 20px;
+        left: 100px;
+        transition-delay: 0.4s;
+    }
+    .side-five {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 120px;
+        bottom: 15px;
+        transition-delay: 0.4s;
+    }
+    .side-four {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        right: 40px;
+        top: 20px;
+        transition-delay: 0.4s;
+    }
 }
+
+@media (min-width: 390px) and (max-width: 429px) {}
+
+@media (min-width: 430px) and (max-width: 539px) {}
+
+@media (min-width: 540px) and (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 819px) {}
+
+@media (min-width: 820px) and (max-width: 1023px) {}
