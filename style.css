@@ -358,7 +358,7 @@ span {
     overflow: hidden;
     color: whitesmoke;
     font-style: italic;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 @media (min-width: 344px) and (max-width: 359px) {}
