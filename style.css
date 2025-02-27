@@ -330,9 +330,13 @@ span {
 }
 
 .container>p {
+    font-family: "Devonshire", serif;
+    /* line-height: 50px; */
+    font-style: normal;
     width: 50%;
     color: rgb(255, 0, 157);
-    font-weight: 600;
+    font-weight: 20px;
+    font-style: italic;
     font-size: 1.8rem;
     transition-delay: 0.4s;
 }
