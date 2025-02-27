@@ -75,10 +75,10 @@ nav {
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    background: linear-gradient(to bottom,  
-    #fde9f7 0%,  
-    #f592d2 40%,  
-    #ff6ecf 55%,  
+    background: linear-gradient(to bottom,   
+    #fde9f7 0% ,
+    #ff6fcd 40%,  
+    #fa3bba 55%,  
     #fd42c2 75%,  
     #f70bac 100%);
 
