@@ -48,10 +48,11 @@ form>input:focus {
 
 form>button {
     margin-top: 4%;
-    width: 16vw;
+    width: 14vw;
     height: 6vh;
     color: white;
-    background-color: rgb(255, 0, 157);
+    background: linear-gradient(to bottom,  #fcecfc 0%,#da65b7 50%,#dd199c 51%,#ff00b3 100%); 
+    
     font-size: large;
     font-weight: bold;
     border: none;
