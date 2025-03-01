@@ -51,12 +51,10 @@ form>button {
     width: 14vw;
     height: 6vh;
     color: white;
-    background: linear-gradient(to bottom,
-            #fcecfc 0%,
-            #f48ec9 30%,
-            #dd199c 60%,
-            #c40086 80%,
-            #ff00b3 100%);
+   background-image: url(assets/beautiful-roses-close-up_392895-71824.avif);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
     font-size: large;
     font-weight: bold;
     border: none;
