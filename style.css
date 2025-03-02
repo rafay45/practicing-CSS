@@ -680,6 +680,9 @@ span {
         font-size: 1.3rem;
         transition-delay: 0.4s;
     }
+    .prayer {
+        width: 100%;
+    }
 
     .years {
         width: 100vw;
