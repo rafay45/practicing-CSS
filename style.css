@@ -780,8 +780,8 @@ span {
         align-items: center;
         display: flex;
         flex-direction: column;
-        right: 2%;
-        bottom: 5%;
+        right: 10px;
+        bottom: 30px;
         position: fixed;
         z-index: 5;
         height: 50px;
