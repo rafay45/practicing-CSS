@@ -781,7 +781,7 @@ span {
         display: flex;
         flex-direction: column;
         right: 10px;
-        bottom: 30px;
+        bottom: 25px;
         position: fixed;
         z-index: 5;
         height: 50px;
