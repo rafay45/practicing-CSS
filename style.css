@@ -51,10 +51,10 @@ form>button {
     width: 14vw;
     height: 6vh;
     color: white;
-   background-color:  rgb(255, 0, 157) ;
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
+    background-color: rgb(255, 0, 157);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     font-size: large;
     font-weight: bold;
     border: none;
@@ -320,6 +320,11 @@ span {
     overflow: hidden;
     height: 80vh;
 }
+
+.prayer {
+    width: 45%;
+}
+
 .container>.prayer>p {
     font-family: "Devonshire", serif;
     font-style: normal;
@@ -331,11 +336,12 @@ span {
 }
 
 .years {
-    width: 50vw;
+    width: 45%;
     height: 80vh;
     transition-delay: 0.4s;
 }
-.second-container{
+
+.second-container {
     position: relative;
     align-content: center;
     text-align: center;
@@ -351,13 +357,15 @@ span {
     font-style: italic;
     font-size: 30px;
 }
-.second-container >h2{
+
+.second-container>h2 {
     position: absolute;
     top: 1%;
     font-family: "Devonshire", serif;
     left: 42%;
 }
-.third-container{
+
+.third-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -365,23 +373,27 @@ span {
     height: 70vh;
     overflow: hidden;
 }
-.third-container>.youMe{
+
+.third-container>.youMe {
     width: 45%;
 }
-.third-container>.youMe>p{
-    color: rgb(255, 0, 157) ;
+
+.third-container>.youMe>p {
+    color: rgb(255, 0, 157);
     font-size: 28px;
     width: 100%;
 }
-.third-container>.main-img{
+
+.third-container>.main-img {
     align-content: center;
-    text-align: center;
+    text-align: start;
     height: 100%;
-    width: 45%;
+    width: 40%;
 }
-.third-container>.main-img>img{
+
+.third-container>.main-img>img {
     width: 450px;
-    height: 400px;
+    height: 450px;
 }
 
 @media (min-width: 344px) and (max-width: 359px) {}
@@ -657,7 +669,8 @@ span {
         overflow: hidden;
         height: 100vh;
     }
-    .prayer>h1{
+
+    .prayer>h1 {
         margin-top: 25px;
     }
 
@@ -673,7 +686,8 @@ span {
         height: 800px;
         transition-delay: 0.4s;
     }
-    .second-container{
+
+    .second-container {
         align-content: center;
         text-align: center;
         background-image: url(assets/my-hand.jpg);
@@ -686,12 +700,14 @@ span {
         overflow: hidden;
         color: whitesmoke;
         font-style: italic;
-        font-size: 20px ;
+        font-size: 20px;
     }
-    .second-container>h2{
+
+    .second-container>h2 {
         left: 30%;
     }
-    .third-container{
+
+    .third-container {
         flex-direction: column;
         display: flex;
         justify-content: center;
@@ -700,19 +716,23 @@ span {
         height: 100vh;
         overflow: hidden;
     }
-    .third-container>.youMe{
+
+    .third-container>.youMe {
         width: 80%;
     }
-    .third-container>.youMe>p{
-        color: rgb(255, 0, 157) ;
+
+    .third-container>.youMe>p {
+        color: rgb(255, 0, 157);
         font-size: 1.3rem;
         width: 100%;
     }
-    .third-container>.main-img{
+
+    .third-container>.main-img {
         height: 40vh;
         width: 100%;
     }
-    .third-container>.main-img>img{
+
+    .third-container>.main-img>img {
         width: 300px;
         height: 300px;
     }
