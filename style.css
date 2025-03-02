@@ -421,6 +421,7 @@ span {
     height: 70px;
     width: 70px;
     border: 6px solid white;
+    border: none;
     border-radius: 100px;
     background: radial-gradient(circle, #ebd0d1, #fc385f, #ff0080);
 }
@@ -785,7 +786,6 @@ span {
         z-index: 5;
         height: 50px;
         width: 50px;
-        border: 6px solid white;
         border-radius: 100px;
         background: radial-gradient(circle, #ebd0d1, #fc385f, #ff0080);
     }
