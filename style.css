@@ -395,6 +395,26 @@ span {
     width: 450px;
     height: 450px;
 }
+.arrow{
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    right: 2%;
+    bottom: 5%;
+    position: fixed;
+    z-index: 5;
+    height: 70px;
+    width: 70px;
+    border: 6px solid white;
+    border-radius: 100px;
+    background: radial-gradient(circle, #ebd0d1, #fc385f, #ff0080);
+}
+.arrow > img{
+ width: 60%;
+ height: 60%;
+}
 
 @media (min-width: 344px) and (max-width: 359px) {}
 
@@ -738,6 +758,27 @@ span {
     .third-container>.main-img>img {
         width: 300px;
         height: 300px;
+    }
+
+    .arrow{
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        right: 2%;
+        bottom: 5%;
+        position: fixed;
+        z-index: 5;
+        height: 50px;
+        width: 50px;
+        border: 6px solid white;
+        border-radius: 100px;
+        background: radial-gradient(circle, #ebd0d1, #fc385f, #ff0080);
+    }
+    .arrow > img{
+     width: 60%;
+     height: 60%;
     }
 }
 
