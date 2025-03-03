@@ -13,7 +13,13 @@ body {
 html {
     scroll-behavior: smooth;
 }
-
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: rgb(255, 0, 159);
+    border-radius: 100px;
+  }
 p {
     font-family: "Devonshire", serif;
 }
