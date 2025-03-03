@@ -3,22 +3,30 @@
     margin: 0;
     max-width: 100%;
     box-sizing: border-box;
-    font-family: "Devonshire", serif;
 }
 
 body {
 
     background-color: white;
 }
+
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
-a, button {
-    outline: none; 
-    background: none; 
-    box-shadow: none; 
+
+p {
+    font-family: "Devonshire", serif;
 }
-a:focus, button:focus {
+
+a,
+button {
+    outline: none;
+    background: none;
+    box-shadow: none;
+}
+
+a:focus,
+button:focus {
     outline: none;
 }
 
@@ -86,7 +94,7 @@ nav {
     justify-content: center;
     align-items: center;
     max-width: 100%;
-   background-color: #ff0080;
+    background-color: #ff0080;
     height: 12vh;
     overflow: hidden;
 }
@@ -130,7 +138,7 @@ ul>li>a:hover::before {
 }
 
 header {
-   background-color: #ff0080;
+    background-color: #ff0080;
     overflow: hidden;
     position: relative;
     height: 90vh;
@@ -411,7 +419,8 @@ span {
     width: 450px;
     height: 450px;
 }
-.arrow{
+
+.arrow {
     cursor: pointer;
     justify-content: center;
     align-items: center;
@@ -428,19 +437,86 @@ span {
     border-radius: 100px;
     background: radial-gradient(circle, #ebd0d1, #fc385f, #ff0080);
 }
-.arrow > img{
- width: 60%;
- height: 60%;
+
+.arrow>img {
+    width: 60%;
+    height: 60%;
 }
-.talks{
+
+.talks {
+    width: 80%;
+}
+
+.fourth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #ff0080;
-    height: 50vh;
+    height: 60vh;
     width: 100%;
+}
+
+.talks>p {
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.talks>h1 {
+    font-size: 40px;
+}
+
+.lub {
+    margin-top: 1%;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    width: 10vw;
+    height: 5vh;
 }
 
 @media (min-width: 344px) and (max-width: 359px) {}
 
 @media (min-width: 360px) and (max-width: 374px) {
+    .talks {
+        width: 80%;
+    }
+
+    .fourth-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ff0080;
+        height: 70vh;
+        width: 100%;
+    }
+
+    .talks>p {
+        margin-top: 20px;
+        color: white;
+        font-size: 20px;
+    }
+
+    .talks>h1 {
+        font-size: 30px;
+    }
+
+    .lub {
+        align-content: center;
+        margin-top: 1%;
+        font-weight: bold;
+        border: none;
+        border-radius: 6px;
+        background-color: black;
+        color: white;
+        width: 110px;
+        height: 30px;
+    }
+
     ul {
         width: 80%;
         display: flex;
@@ -719,9 +795,10 @@ span {
     .container>.prayer>p {
         color: rgb(255, 0, 157);
         width: 100%;
-        font-size: 1.3rem;
+        font-size: 20px;
         transition-delay: 0.4s;
     }
+
     .prayer {
         width: 100%;
     }
@@ -768,7 +845,7 @@ span {
 
     .third-container>.youMe>p {
         color: rgb(255, 0, 157);
-        font-size: 1.3rem;
+        font-size: 20px;
         width: 100%;
     }
 
@@ -783,7 +860,7 @@ span {
         height: 300px;
     }
 
-    .arrow{
+    .arrow {
         cursor: pointer;
         justify-content: center;
         align-items: center;
@@ -798,9 +875,10 @@ span {
         border-radius: 100px;
         background: radial-gradient(circle, #ebd0d1, #fc385f, #ff0080);
     }
-    .arrow > img{
-     width: 60%;
-     height: 60%;
+
+    .arrow>img {
+        width: 60%;
+        height: 60%;
 
     }
 }
