@@ -580,13 +580,20 @@ span {
         border-radius: 5px;
         width: 80px;
         height: 25px;
-        transition: all 0.6s ease-in-out;
+        transition: all 0.1s ease-in-out;
     }
     .cards>button:hover{
-        border: 1px solid #ff0080;
-        background-color: white;
-        color: #ff0080;
+        background-color: #ff0080;
+        color: white;
     }
+    .cards > button:active {
+        border: 1px solid #ff0080;
+       color: #ff0080;
+       background-color: white;
+    }
+    /* .cards > button:focus {
+        outline: none;
+    } */
     .talks {
         width: 80%;
     }
