@@ -80,12 +80,13 @@ form>button:hover {
 }
 
 nav {
+    border-bottom: 1px solid white;
     font-style: italic;
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    background-image: url(assets/rose-nav.jpg);
+   background-color: #ff0080;
     height: 12vh;
     overflow: hidden;
 }
@@ -129,6 +130,7 @@ ul>li>a:hover::before {
 }
 
 header {
+   background-color: #ff0080;
     overflow: hidden;
     position: relative;
     height: 90vh;
@@ -355,6 +357,7 @@ span {
 }
 
 .second-container {
+    margin-top: 20px;
     position: relative;
     align-content: center;
     text-align: center;
@@ -428,6 +431,11 @@ span {
 .arrow > img{
  width: 60%;
  height: 60%;
+}
+.talks{
+    background-color: #ff0080;
+    height: 50vh;
+    width: 100%;
 }
 
 @media (min-width: 344px) and (max-width: 359px) {}
@@ -765,6 +773,7 @@ span {
     }
 
     .third-container>.main-img {
+        text-align: center;
         height: 40vh;
         width: 100%;
     }
@@ -792,6 +801,7 @@ span {
     .arrow > img{
      width: 60%;
      height: 60%;
+
     }
 }
 
