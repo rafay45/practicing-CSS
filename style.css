@@ -13,15 +13,14 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  ::-webkit-scrollbar-thumb{
+}
+
+::-webkit-scrollbar-thumb {
     background: rgb(255, 0, 159);
     border-radius: 100px;
-  }
-p {
-    font-family: "Devonshire", serif;
 }
 
 a,
@@ -409,6 +408,7 @@ span {
 }
 
 .third-container>.youMe>p {
+    font-family: "Devonshire", serif;
     color: rgb(255, 0, 157);
     font-size: 28px;
     width: 100%;
@@ -465,6 +465,7 @@ span {
 }
 
 .talks>p {
+    font-family: "Devonshire", serif;
     margin-top: 10px;
     color: white;
     font-size: 30px;
@@ -484,7 +485,8 @@ span {
     width: 10vw;
     height: 5vh;
 }
-.gifts{
+
+.gifts {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -492,21 +494,25 @@ span {
     overflow: hidden;
     height: 65vh;
 }
-.cards{
+
+.cards {
     text-align: center;
     height: 45vh;
     width: 18vw;
 }
-.inner-card{
+
+.inner-card {
     border: 8px solid #D3D3D3;
     width: 100%;
     height: 35vh;
 }
-.inner-card>img{
+
+.inner-card>img {
     width: 100%;
     height: 100%;
 }
-.cards>button{
+
+.cards>button {
     margin-top: 5%;
     cursor: pointer;
     font-weight: bold;
@@ -518,22 +524,26 @@ span {
     height: 5vh;
     transition: all 0.6s ease-in-out;
 }
-.cards>button:hover{
+
+.cards>button:hover {
     border: 1px solid #ff0080;
     background-color: white;
     color: #ff0080;
 }
-.section-two{
+
+.section-two {
     width: 50%;
     justify-content: space-around;
     display: flex;
 }
-.section-one{
+
+.section-one {
     width: 50%;
     justify-content: space-around;
     display: flex;
 }
-.forher{
+
+.forher {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -541,40 +551,243 @@ span {
     overflow: hidden;
     height: 60vh;
 }
-.section{
+
+.section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
     width: 30%;
 }
-.herchoice{
+
+.herchoice {
     overflow: hidden;
     width: 40%;
     height: 60%;
 }
-.herchoice >img:hover{
+
+.herchoice>img:hover {
     transform: scale(1.2);
     transition: all 0.5s ease;
 }
-.herchoice > img{
+
+.herchoice>img {
     width: 100%;
     height: 100%;
 }
-.sectionCenter{
+
+.sectionCenter {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     width: 25%;
 }
-.sectionCenter > .herchoice{
+
+.sectionCenter>.herchoice {
     width: 50%;
 }
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+footer>h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.questions {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.quesSecOne {
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.quesSecTwo {
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+}
+
+#quesOne>p {
+    font-size: 22px;
+}
+
+#quesOne>button {
+    margin-top: 5%;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #ff0080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 4vw;
+    height: 4vh;
+    font-size: 12;
+}
+
+#quesOne>button:hover {
+    background-color: #f82a91;
+}
+
+#quesOne>button:active {
+    transform: translateY(1px);
+}
+
+#quesTwo>p {
+    font-size: 22px;
+}
+
+#quesTwo>button {
+    margin-top: 5%;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #ff0080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 4vw;
+    height: 4vh;
+    font-size: 12;
+}
+
+#quesTwo>button:hover {
+    background-color: #f82a91;
+}
+
+#quesTwo>button:active {
+    transform: translateY(1px);
+}
+
+#quesThree>p {
+    font-size: 22px;
+}
+
+#quesThree>button {
+    margin-top: 5%;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #ff0080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 4vw;
+    height: 4vh;
+    font-size: 12;
+}
+
+#quesThree>button:hover {
+    background-color: #f82a91;
+}
+
+#quesThree>button:active {
+    transform: translateY(1px);
+}
+
+#quesFour>p {
+    font-size: 22px;
+}
+
+input[type="radio"] {
+    accent-color: #f82a91;
+}
+
 @media (min-width: 344px) and (max-width: 359px) {}
 
 @media (min-width: 360px) and (max-width: 374px) {
-    .forher{
+    label{
+        font-size: 10px;
+    }
+    footer>h1{
+        font-size: 28px;
+        margin-top: 20px;
+    }
+    .quesSecOne {
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+    }
+
+    .quesSecTwo {
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+    }
+
+    #quesOne>p {
+        font-size: 9px;
+    }
+
+    #quesOne>button {
+        margin-top: 5%;
+        cursor: pointer;
+        font-weight: bold;
+        background-color: #ff0080;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        width: 30px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    #quesTwo>p {
+        font-size: 10px;
+    }
+
+    #quesTwo>button {
+        margin-top: 5%;
+        cursor: pointer;
+        font-weight: bold;
+        background-color: #ff0080;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        width: 30px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    #quesThree>p {
+        font-size: 9px;
+    }
+
+    #quesThree>button {
+        margin-top: 5%;
+        cursor: pointer;
+        font-weight: bold;
+        background-color: #ff0080;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        width: 30px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    #quesFour>p {
+        font-size: 9px;
+    }
+
+    .forher {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -583,38 +796,45 @@ span {
         overflow: hidden;
         height: 75vh;
     }
-    .section{
+
+    .section {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         height: 200px;
         width: 100%;
     }
-    .herchoice{
+
+    .herchoice {
         overflow: hidden;
         width: 30%;
         height: 70%;
     }
-    .herchoice >img:hover{
+
+    .herchoice>img:hover {
         transform: scale(1.2);
         transition: all 0.5s ease;
     }
-    .herchoice > img{
+
+    .herchoice>img {
         width: 100%;
         height: 100%;
     }
-    .sectionCenter{
+
+    .sectionCenter {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 200px;
         width: 100%;
     }
-    .sectionCenter > .herchoice{
+
+    .sectionCenter>.herchoice {
         width: 30%;
         height: 70%;
     }
-    .gifts{
+
+    .gifts {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -623,32 +843,37 @@ span {
         overflow: hidden;
         height: 500px;
     }
-    .section-two{
+
+    .section-two {
         justify-content: space-evenly;
         width: 100%;
         display: flex;
     }
-    .section-one{
+
+    .section-one {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
     }
 
-    .cards{
+    .cards {
         text-align: center;
         height: 200px;
         width: 150px;
     }
-    .inner-card{
+
+    .inner-card {
         border: 8px solid #D3D3D3;
         width: 100%;
         height: 70%;
     }
-    .inner-card>img{
+
+    .inner-card>img {
         width: 100%;
         height: 100%;
     }
-    .cards>button{
+
+    .cards>button {
         margin-top: 8%;
         cursor: pointer;
         font-weight: bold;
@@ -660,15 +885,18 @@ span {
         height: 25px;
         transition: all 0.1s ease-in-out;
     }
-    .cards>button:hover{
+
+    .cards>button:hover {
         background-color: #ff0080;
         color: white;
     }
-    .cards > button:active {
+
+    .cards>button:active {
         border: 1px solid #ff0080;
-       color: #ff0080;
-       background-color: white;
+        color: #ff0080;
+        background-color: white;
     }
+
     .talks {
         width: 80%;
     }
