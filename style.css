@@ -592,7 +592,7 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     width: 100%;
-    height: 50vh;
+    height: 55vh;
     background-color: black;
     overflow: hidden;
 }
@@ -612,16 +612,19 @@ footer>h1 {
 }
 
 .quesSecOne {
+    align-items: center;
     justify-content: space-evenly;
     width: 100%;
+    height: 15vh;
     margin-top: 2%;
     display: flex;
 }
 
 .quesSecTwo {
+    align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    margin-top: 2%;
+    height: 15vh;
     display: flex;
 }
 
@@ -703,6 +706,12 @@ footer>h1 {
 #quesFour>p {
     font-size: 22px;
 }
+#quesFive>p {
+    font-size: 22px;
+}
+#quesSix>p {
+    font-size: 22px;
+}
 
 input[type="radio"] {
     accent-color: #f82a91;
@@ -711,16 +720,25 @@ input[type="radio"] {
 @media (min-width: 344px) and (max-width: 359px) {}
 
 @media (min-width: 360px) and (max-width: 374px) {
-    label{
+    input[type="radio"] {
+        accent-color: #f82a91;
+        width: 8px;
+        height: 8px;
+    }
+
+    label {
         font-size: 10px;
     }
-    footer>h1{
+
+    footer>h1 {
         font-size: 28px;
         margin-top: 20px;
     }
+
     .quesSecOne {
         justify-content: space-evenly;
         width: 100%;
+        height: 80px;
         margin-top: 5%;
         display: flex;
     }
@@ -728,7 +746,7 @@ input[type="radio"] {
     .quesSecTwo {
         justify-content: space-evenly;
         width: 100%;
-        margin-top: 5%;
+        height: 80px;
         display: flex;
     }
 
@@ -744,9 +762,9 @@ input[type="radio"] {
         color: white;
         border: none;
         border-radius: 5px;
-        width: 30px;
-        height: 20px;
-        font-size: 10px;
+        width: 25px;
+        height: 15px;
+        font-size: 8px;
     }
 
     #quesTwo>p {
@@ -761,9 +779,9 @@ input[type="radio"] {
         color: white;
         border: none;
         border-radius: 5px;
-        width: 30px;
-        height: 20px;
-        font-size: 10px;
+        width: 25px;
+        height: 15px;
+        font-size: 8px;
     }
 
     #quesThree>p {
@@ -778,12 +796,18 @@ input[type="radio"] {
         color: white;
         border: none;
         border-radius: 5px;
-        width: 30px;
-        height: 20px;
-        font-size: 10px;
+        width: 25px;
+        height: 15px;
+        font-size: 8px;
     }
 
     #quesFour>p {
+        font-size: 9px;
+    }
+    #quesFive>p {
+        font-size: 9px;
+    }
+    #quesSix>p {
         font-size: 9px;
     }
 
