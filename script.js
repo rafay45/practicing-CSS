@@ -27,52 +27,63 @@ function four() {
   let getOne = document.getElementById('card-four');
   getOne.innerHTML = ` <img data-aos="zoom-in"  src="assets/gift-four.jpg" alt="">`
 }
+
 let year = new Date().getFullYear();
-console.log(year);
-
-document.getElementById("copyYear").textContent = year
+document.getElementById("copyYear").textContent = year;
 
 
+let quesOne = document.getElementById('quesOne');
+let innerPara = quesOne.childNodes[1]
+let getOne = document.getElementById('yes');
+getOne.addEventListener('click', function () {
+    let oneChecked = document.getElementById('yes').checked;
+   if(oneChecked === true){
+    innerPara.innerText = `Hayeee I Love You Too🙈`
+   }
+})
+let getTwo = document.getElementById('no');
+getTwo.addEventListener('click', function () {
+    let twoChecked = document.getElementById('no').checked;
+   if(twoChecked === true){
+    innerPara.innerText = `Jaan🥺`
+   }
+})
+
+let quesTwo= document.getElementById('quesTwo');
+let innerParaTwo = quesTwo.childNodes[1]
+let getHus = document.getElementById('hus');
+getHus.addEventListener('click', function () {
+    let husChecked = document.getElementById('hus').checked;
+   if(husChecked === true){
+    innerParaTwo.innerText = `Yes, I am Your Husband🥳`
+   }
+})
+let getMiya = document.getElementById('miya');
+getMiya.addEventListener('click', function () {
+    let miyaChecked = document.getElementById('miya').checked;
+   if(miyaChecked === true){
+    innerParaTwo.innerText = `H00ooo😱`
+   }
+})
+
+let quesThree = document.getElementById('quesThree');
+let innerParaThree = quesThree.childNodes[1]
+let getpook = document.getElementById('pook');
+getpook.addEventListener('click', function () {
+    let pookChecked = document.getElementById('pook').checked;
+   if(pookChecked === true){
+    innerParaThree.innerText = `hehehehehe🤭🙈`
+   }
+})
+let getpookno = document.getElementById('pookno');
+getpookno.addEventListener('click', function () {
+    let pooknoChecked = document.getElementById('pookno').checked;
+   if(pooknoChecked === true){
+    innerParaThree.innerText = `Aennnnn I am your Pookie😭`
+   }
+})
 
 
-
-
-// function onebtn() {
-//   let quesOne = document.getElementById('quesOne')
-//   if (quesOne.children[1].innerHTML === "Yes") {
-//     quesOne.innerHTML = `<p>Hayeee I Love You Too🙈</p>`
-//   }
-// }
-// function twobtn() {
-//   let quesOne = document.getElementById('quesOne')
-//   if (quesOne.children[2].innerHTML === "No") {
-//     quesOne.innerHTML = `<p>Jaan☹️</p>`
-//   }
-// }
-// function threebtn() {
-//   let quesOne = document.getElementById('quesTwo')
-//   if (quesOne.children[1].innerHTML === "Yes") {
-//     quesOne.innerHTML = `<p>Yes, I am Your Husband🥳</p>`
-//   }
-// }
-// function fourthbtn() {
-//   let quesOne = document.getElementById('quesTwo')
-//   if (quesOne.children[2].innerHTML === "No") {
-//     quesOne.innerHTML = `<p>Hooo😱</p>`
-//   }
-// }
-// function fivebtn() {
-//   let quesOne = document.getElementById('quesThree')
-//   if (quesOne.children[1].innerHTML === "Yes") {
-//     quesOne.innerHTML = `<p>hehehehehe🤭🙈</p>`
-//   }
-// }
-// function sixbtn() {
-//   let quesOne = document.getElementById('quesThree')
-//   if (quesOne.children[2].innerHTML === "No") {
-//     quesOne.innerHTML = `<p>Aennnnn I am your Pookie😭</p>`
-//   }
-// }
 // function sixbtn() {
 //   let quesOne = document.getElementById('quesThree')
 //   if (quesOne.children[2].innerHTML === "No") {
