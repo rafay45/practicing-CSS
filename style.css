@@ -736,6 +736,9 @@ input[type="radio"] {
         width: 8px;
         height: 8px;
     }
+    .copyright{
+        margin-top: 20px;
+    }
 
     label {
         font-size: 10px;
