@@ -83,10 +83,19 @@ getpookno.addEventListener('click', function () {
    }
 })
 
-
-// function sixbtn() {
-//   let quesOne = document.getElementById('quesThree')
-//   if (quesOne.children[2].innerHTML === "No") {
-//     quesOne.innerHTML = `<p>Aennnnn I am your Pookie😭</p>`
-//   }
-// }
+let quesFour = document.getElementById('quesFour');
+let innerParaFour = quesFour.childNodes[1]
+let getTholu = document.getElementById('small');
+getTholu.addEventListener('click', function () {
+    let smallChecked = document.getElementById('small').checked;
+   if(smallChecked === true){
+    innerParaFour.innerText = `Nai jii🥺`
+   }
+})
+let getUnlimited = document.getElementById('unlimited');
+getUnlimited.addEventListener('click', function () {
+    let unlimitedChecked = document.getElementById('unlimited').checked;
+   if(unlimitedChecked === true){
+    innerParaFour.innerText = `Ufffff🙈🥳🥳`
+   }
+})
