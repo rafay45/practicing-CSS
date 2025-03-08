@@ -727,6 +727,13 @@ input[type="radio"] {
     text-align: center;
     font-size: 12px;
 }
+.marquee{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: italic;
+}
 
 @media (min-width: 344px) and (max-width: 359px) {}
 
