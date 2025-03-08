@@ -738,6 +738,9 @@ input[type="radio"] {
 @media (min-width: 344px) and (max-width: 359px) {}
 
 @media (min-width: 360px) and (max-width: 374px) {
+    .marquee{
+        font-size: 10px;
+    }
     input[type="radio"] {
         accent-color: #f82a91;
         width: 8px;
