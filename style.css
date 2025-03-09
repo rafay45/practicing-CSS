@@ -89,7 +89,7 @@ form>button {
     transition: all 0.2s ease;
 }
 
-form>button:active{
+form>button:active {
     background-color: white;
     border: 1px solid rgb(255, 0, 159);
     color: rgb(255, 0, 159);
@@ -122,7 +122,7 @@ ul>li>a {
     padding: 10px 0px 10px 0px;
     text-decoration: none;
     cursor: pointer;
-    font-family: sans-serif ;
+    font-family: sans-serif;
     font-weight: bold;
     color: white;
     font-size: 20px;
@@ -355,9 +355,11 @@ span {
 .prayer {
     width: 45%;
 }
-.prayer > h1{
+
+.prayer>h1 {
     font-size: 40px;
 }
+
 .container>.prayer>p {
     font-family: "Devonshire", serif;
     font-style: normal;
@@ -411,9 +413,11 @@ span {
 .third-container>.youMe {
     width: 45%;
 }
-.youMe > h1{
+
+.youMe>h1 {
     font-size: 40px;
 }
+
 .third-container>.youMe>p {
     font-family: "Devonshire", serif;
     color: rgb(255, 0, 159);
@@ -710,6 +714,7 @@ footer>h1 {
 #quesSix>p {
     font-size: 22px;
 }
+
 #quesSeven>p {
     font-size: 22px;
 }
@@ -725,24 +730,28 @@ footer>h1 {
 #quesTen>p {
     font-size: 22px;
 }
-.quesSecTwo{
+
+.quesSecTwo {
     flex-direction: column;
     justify-content: space-evenly;
     height: 70vh;
     display: flex;
 }
-.quesSecTwo > p{
+
+.quesSecTwo>p {
     text-decoration: underline;
     font-style: oblique;
     font-size: 15px;
 }
+
 .questionsTwo {
     justify-content: space-evenly;
     align-items: center;
     display: flex;
 }
+
 input[type="radio"] {
-    accent-color: rgb(255, 0, 159) ;
+    accent-color: rgb(255, 0, 159);
 }
 
 .copyright {
@@ -750,7 +759,8 @@ input[type="radio"] {
     text-align: center;
     font-size: 12px;
 }
-.marquee{
+
+.marquee {
     font-size: 20px;
     background-color: black;
     color: white;
@@ -758,7 +768,8 @@ input[type="radio"] {
     font-family: sans-serif;
     font-style: italic;
 }
-.what-are-you-to-me{
+
+.what-are-you-to-me {
     margin-top: 5%;
     height: 320vh;
     width: 100%;
@@ -767,41 +778,124 @@ input[type="radio"] {
     flex-direction: column;
     align-items: center;
 }
-.for-me{
+
+.for-me {
     width: 80%;
 }
-.for-me > h1{
+
+.for-me>h1 {
     font-size: 40px;
     font-style: italic;
     font-family: sans-serif;
 }
-.for-me > p{
+
+.for-me>p {
     font-family: "Devonshire", serif;
     margin-top: 10px;
-    color: rgb(255, 0, 159) ;
+    color: rgb(255, 0, 159);
     font-size: 30px;
+}
+
+.pages {
+    /* border: 1px solid; */
+    margin-top: 5%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pageOne{
+    /* border: 1px solid; */
+    width: 50%;
+    justify-content: space-around;
+    display: flex;
+}
+.page {
+    position: relative;
+    background-image: url(assets/page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 50vh;
+}
+
+.page>p {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 30px;
+    width: 80%;
+}
+.sign{
+    font-size: 12px;
+    color: maroon;
+    position: absolute;
+    bottom: 10px;
+    font-family: monospace;
 }
 
 @media (min-width: 344px) and (max-width: 359px) {}
 
 @media (min-width: 360px) and (max-width: 374px) {
-    .quesSecTwo{
+    .pages {
+        margin-top: 0%;
+        height: 60vh;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .pageOne{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .pageOne >.page {
+        position: relative;
+        background-image: url(assets/page.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        height: 160px;
+    }
+    
+    .pageOne >.page>p {
+        font-size: 10px;
+        font-weight: 800;
+        text-align: center;
+        line-height: 12px;
+        width: 80%;
+    }
+    .pageOne > .page > .sign{
+        font-size: 6px;
+    }
+    .quesSecTwo {
         flex-direction: column;
         justify-content: space-evenly;
         height: 370px;
         display: flex;
     }
-    .quesSecTwo > p{
+
+    .quesSecTwo>p {
         text-decoration: underline;
         font-style: oblique;
         font-size: 9px;
     }
+
     .questionsTwo {
         justify-content: space-evenly;
         align-items: center;
         display: flex;
     }
-    .what-are-you-to-me{
+
+    .what-are-you-to-me {
         height: 350vh;
         margin-top: 5%;
         width: 100%;
@@ -809,30 +903,35 @@ input[type="radio"] {
         flex-direction: column;
         align-items: center;
     }
-    .for-me{
+
+    .for-me {
         width: 80%;
     }
-    .for-me > h1{
+
+    .for-me>h1 {
         font-size: 30px;
         font-style: italic;
         font-family: sans-serif;
     }
-    .for-me > p{
+
+    .for-me>p {
         font-family: "Devonshire", serif;
         margin-top: 10px;
-        color: rgb(255, 0, 159) ;
+        color: rgb(255, 0, 159);
         font-size: 20px;
     }
-    
-    .marquee{
+
+    .marquee {
         font-size: 12px;
     }
+
     input[type="radio"] {
-        accent-color: rgb(255, 0, 159) ;
+        accent-color: rgb(255, 0, 159);
         width: 8px;
         height: 8px;
     }
-    .copyright{
+
+    .copyright {
         margin-top: 20px;
     }
 
@@ -854,7 +953,7 @@ input[type="radio"] {
         align-items: center;
         display: flex;
     }
-    
+
     .quesSec {
         flex-direction: column;
         justify-content: space-evenly;
@@ -869,6 +968,7 @@ input[type="radio"] {
     #quesTwo>p {
         font-size: 10px;
     }
+
     #quesThree>p {
         font-size: 9px;
     }
@@ -885,21 +985,23 @@ input[type="radio"] {
     #quesSix>p {
         font-size: 9px;
     }
-    
+
     #quesSeven>p {
         font-size: 9px;
     }
-    
+
     #quesEight>p {
         font-size: 9px;
     }
-    
+
     #quesNine>p {
         font-size: 9px;
     }
+
     #quesTen>p {
         font-size: 9px;
     }
+
     .forher {
         display: flex;
         flex-direction: column;
@@ -1331,9 +1433,11 @@ input[type="radio"] {
     .prayer {
         width: 100%;
     }
-    .prayer > h1{
+
+    .prayer>h1 {
         font-size: 30px;
     }
+
     .years {
         width: 100vw;
         height: 800px;
@@ -1373,9 +1477,11 @@ input[type="radio"] {
     .third-container>.youMe {
         width: 80%;
     }
-    .youMe > h1{
+
+    .youMe>h1 {
         font-size: 30px;
     }
+
     .third-container>.youMe>p {
         color: rgb(255, 0, 159);
         font-size: 20px;
@@ -1414,6 +1520,7 @@ input[type="radio"] {
         height: 60%;
 
     }
+
     .copyright {
         width: 100%;
         text-align: center;
