@@ -86,10 +86,13 @@ form>button {
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    transition: all 0.2s ease;
 }
 
-form>button:hover {
-    transition: all 1s ease;
+form>button:active{
+    background-color: white;
+    border: 1px solid #ff0080;
+    color: #ff0080;
 }
 
 nav {
@@ -774,8 +777,7 @@ input[type="radio"] {
         align-items: center;
     }
     .for-me{
-        /* border: 1px solid; */
-        width: 70%;
+        width: 90%;
     }
     .for-me > h1{
         font-size: 30px;
