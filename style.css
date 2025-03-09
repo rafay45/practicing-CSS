@@ -813,7 +813,7 @@ input[type="radio"] {
 .page {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
     position: relative;
-    border: 6px solid black;
+    border: 6px solid rgb(255, 0, 159);
     border-radius: 20px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -825,7 +825,7 @@ input[type="radio"] {
 }
 
 .page>p {
-    color: rgb(255, 0, 159);
+    color: black;
     font-size: 20px;
     font-weight: 800;
     text-align: center;
@@ -834,7 +834,7 @@ input[type="radio"] {
 }
 .sign{
     font-size: 12px;
-    color: black;
+    color: rgb(255, 0, 159);
     position: absolute;
     bottom: 10px;
     font-family: monospace;
@@ -858,8 +858,8 @@ input[type="radio"] {
         justify-content: space-evenly;
     }
     .pageOne >.page {
-        box-shadow: 8px 8px 20px gray;
-        border: 5px solid black;
+       box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+        border: 5px solid rgb(255, 0, 159);
         border-radius: 15px;
         position: relative;
         background-repeat: no-repeat;
