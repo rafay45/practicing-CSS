@@ -763,7 +763,7 @@ input[type="radio"] {
 .marquee {
     font-size: 20px;
     background-color: black;
-    color: rgb(255, 0, 159);
+    color: white;
     font-weight: bold;
     font-family: sans-serif;
     font-style: italic;
@@ -811,8 +811,10 @@ input[type="radio"] {
     display: flex;
 }
 .page {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
     position: relative;
-    background-image: url(assets/page.jpg);
+    border: 6px solid black;
+    border-radius: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -823,6 +825,7 @@ input[type="radio"] {
 }
 
 .page>p {
+    color: rgb(255, 0, 159);
     font-size: 20px;
     font-weight: 800;
     text-align: center;
@@ -831,7 +834,7 @@ input[type="radio"] {
 }
 .sign{
     font-size: 12px;
-    color: maroon;
+    color: black;
     position: absolute;
     bottom: 10px;
     font-family: monospace;
@@ -855,8 +858,10 @@ input[type="radio"] {
         justify-content: space-evenly;
     }
     .pageOne >.page {
+        box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+        border: 5px solid black;
+        border-radius: 15px;
         position: relative;
-        background-image: url(assets/page.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
