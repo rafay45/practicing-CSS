@@ -867,14 +867,14 @@ input[type="radio"] {
     }
     
     .pageOne >.page>p {
-        font-size: 10px;
+        font-size: 8px;
         font-weight: 800;
         text-align: center;
         line-height: 10px;
         width: 80%;
     }
     .pageOne > .page > .sign{
-        font-size: 6px;
+        font-size: 5px;
     }
     .quesSecTwo {
         flex-direction: column;
