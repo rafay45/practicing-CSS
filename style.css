@@ -858,7 +858,7 @@ input[type="radio"] {
         justify-content: space-evenly;
     }
     .pageOne >.page {
-        box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+        box-shadow: 8px 8px 20px gray;
         border: 5px solid black;
         border-radius: 15px;
         position: relative;
