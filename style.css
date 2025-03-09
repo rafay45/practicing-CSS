@@ -725,6 +725,22 @@ footer>h1 {
 #quesTen>p {
     font-size: 22px;
 }
+.quesSecTwo{
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70vh;
+    display: flex;
+}
+.quesSecTwo > p{
+    text-decoration: underline;
+    font-style: oblique;
+    font-size: 15px;
+}
+.questionsTwo {
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
 input[type="radio"] {
     accent-color: rgb(255, 0, 159) ;
 }
@@ -743,9 +759,8 @@ input[type="radio"] {
     font-style: italic;
 }
 .what-are-you-to-me{
-    /* border: 1px solid; */
     margin-top: 5%;
-    height: 200vh;
+    height: 320vh;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -753,7 +768,6 @@ input[type="radio"] {
     align-items: center;
 }
 .for-me{
-    /* border: 1px solid; */
     width: 80%;
 }
 .for-me > h1{
@@ -771,7 +785,24 @@ input[type="radio"] {
 @media (min-width: 344px) and (max-width: 359px) {}
 
 @media (min-width: 360px) and (max-width: 374px) {
+    .quesSecTwo{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 370px;
+        display: flex;
+    }
+    .quesSecTwo > p{
+        text-decoration: underline;
+        font-style: oblique;
+        font-size: 9px;
+    }
+    .questionsTwo {
+        justify-content: space-evenly;
+        align-items: center;
+        display: flex;
+    }
     .what-are-you-to-me{
+        height: 350vh;
         margin-top: 5%;
         width: 100%;
         display: flex;
