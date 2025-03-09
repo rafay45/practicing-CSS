@@ -119,7 +119,7 @@ ul>li>a {
     padding: 10px 0px 10px 0px;
     text-decoration: none;
     cursor: pointer;
-    font-family: "Aref Ruqaa Ink", serif;
+    font-family: sans-serif ;
     font-weight: bold;
     color: white;
     font-size: 20px;
@@ -352,7 +352,9 @@ span {
 .prayer {
     width: 45%;
 }
-
+.prayer > h1{
+    font-size: 40px;
+}
 .container>.prayer>p {
     font-family: "Devonshire", serif;
     font-style: normal;
@@ -406,7 +408,9 @@ span {
 .third-container>.youMe {
     width: 45%;
 }
-
+.youMe > h1{
+    font-size: 40px;
+}
 .third-container>.youMe>p {
     font-family: "Devonshire", serif;
     color: #ff0080;
@@ -1292,7 +1296,9 @@ input[type="radio"] {
     .prayer {
         width: 100%;
     }
-
+    .prayer > h1{
+        font-size: 30px;
+    }
     .years {
         width: 100vw;
         height: 800px;
@@ -1332,7 +1338,9 @@ input[type="radio"] {
     .third-container>.youMe {
         width: 80%;
     }
-
+    .youMe > h1{
+        font-size: 30px;
+    }
     .third-container>.youMe>p {
         color: #ff0080;
         font-size: 20px;
