@@ -745,14 +745,16 @@ input[type="radio"] {
 .what-are-you-to-me{
     /* border: 1px solid; */
     margin-top: 5%;
+    height: 200vh;
     width: 100%;
     display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
 }
 .for-me{
     /* border: 1px solid; */
-    width: 70%;
+    width: 80%;
 }
 .for-me > h1{
     font-size: 40px;
@@ -777,7 +779,7 @@ input[type="radio"] {
         align-items: center;
     }
     .for-me{
-        width: 90%;
+        width: 80%;
     }
     .for-me > h1{
         font-size: 30px;
@@ -1009,7 +1011,7 @@ input[type="radio"] {
         border-radius: 6px;
         background-color: black;
         color: white;
-        width: 110px;
+        width: 150px;
         height: 30px;
     }
 
